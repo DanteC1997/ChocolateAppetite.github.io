@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    
    
   <!-- Maybe keep or maybe delete-->
     <!-- <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet"> -->
@@ -38,6 +40,7 @@
         <!-- End Top Header Image Settings-->
 
    <!--Nav Menu Section-->
+   
         <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -63,17 +66,81 @@
     </div>
   </div>
 </nav>
+
 <!--End Nav Menu Section-->
 </header>
 
+<div class="txtimg">
+    <div class="learnimgsize">
+      <img src="ImageTest/testimage.jpg" alt="Contact Us" width = "100%" height="auto">
+    </div>  
+      <div class="textcentered">
+        <h1>Contact Us</h1>
+      </div>
+  </div>
+  
 
 <!-- Slide Show Product-->
+<div class="center">
+    <h1>FAQ</h1>
+<button class="accordion">Delivery Time Frame </button>
+<div class="panel">
+  <p>ercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">How many times can I use my rewards</button>
+<div class="panel">
+  <p>You can use your rewards as many times, as long as you have available</p>
+</div>
+
+<button class="accordion">Will current members get rewards points?</button>
+<div class="panel">
+  <p>Yes. All current members of Chocolate Appetite we will receive 50 bonus points. </p>
+</div>
 
 
+<button class="accordion">Do rewards points expire?</button>
+<div class="panel">
+  <p>Rewards point do not expire. Allowing you build up rewards points and keep on redeeming them as long as you're a member. 
+</p>
+</div>
+
+
+<button class="accordion">I made a purchase but I forgot to login and earn points. Can I still get my points?</button>
+<div class="panel">
+  <p>Members need to log in online to earn  points. If you forgot, don't worry you 
+    just need to email your proof of purchase to our Customer Service team within 2 
+    weeks of purchase date and they will be able to look and provide further information.  </p>
+</div>
+
+
+
+
+</div>
+
+  
 
 
 <script>
 
+/* FAQ Settings */
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+
+/* End FAQ Settings */
 
 
 </script>
