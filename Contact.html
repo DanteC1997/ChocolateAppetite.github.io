@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- style sheet code link-->
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    
+   
+  <!-- Maybe keep or maybe delete-->
+    <!-- <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet"> -->
+    <!-- issue below-->
+
+
+    <title>Chocolate Appetite | Home</title>
+
+   
+
+  </head>
+  <!-- <body class="p-3 m-0 border-0 bd-example"> -->
+
+    <header>
+
+      <!--Top header image settings-->
+        <!-- <div class="headerpadding">
+        <div class="position">
+            <div class="center">
+                <img src="Logo/cafulllogo.png" alt="Chocolate Appetite" class="responsive" Width="300" Height="100">
+            </div>
+            </div> 
+        </div> -->
+        <!-- End Top Header Image Settings-->
+
+   <!--Nav Menu Section-->
+   
+        <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="Logo/cafulllogo.png" alt="Chocolate Appetite" class="responsive" width="95" height=""> </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="Rewards.html">Rewards</a></li>
+        <li><a href="Menu.html">Menu</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--End Nav Menu Section-->
+</header>
+
+<div class="txtimg">
+    <div class="learnimgsize">
+      <img src="ImageTest/testimage.jpg" alt="Contact Us" width = "100%" height="auto">
+    </div>  
+      <div class="textcentered">
+        <h1>Contact Us</h1>
+      </div>
+  </div>
+  
+
+<!-- Slide Show Product-->
+<div class="center">
+    <h1>FAQ</h1>
+<button class="accordion">Delivery Time Frame </button>
+<div class="panel">
+  <p>ercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">How many times can I use my rewards</button>
+<div class="panel">
+  <p>You can use your rewards as many times, as long as you have available</p>
+</div>
+
+<button class="accordion">Will current members get rewards points?</button>
+<div class="panel">
+  <p>Yes. All current members of Chocolate Appetite we will receive 50 bonus points. </p>
+</div>
+
+
+<button class="accordion">Do rewards points expire?</button>
+<div class="panel">
+  <p>Rewards point do not expire. Allowing you build up rewards points and keep on redeeming them as long as you're a member. 
+</p>
+</div>
+
+
+<button class="accordion">I made a purchase but I forgot to login and earn points. Can I still get my points?</button>
+<div class="panel">
+  <p>Members need to log in online to earn  points. If you forgot, don't worry you 
+    just need to email your proof of purchase to our Customer Service team within 2 
+    weeks of purchase date and they will be able to look and provide further information.  </p>
+</div>
+
+
+
+
+</div>
+
+  
+
+
+<script>
+
+/* FAQ Settings */
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+
+/* End FAQ Settings */
+
+
+</script>
+
+
+</body>
+
+</html>
