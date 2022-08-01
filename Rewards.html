@@ -17,8 +17,10 @@
     <!-- <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet"> -->
     <!-- issue below-->
 
+    
+<body>
 
-    <title>Chocolate Appetite | Home</title>
+    <title>Chocolate Appetite | Rewards</title>
 
    
 
@@ -50,8 +52,8 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="Rewards.html">Rewards</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="Rewards.html">Rewards</a></li>
         <li><a href="Menu.html">Menu</a></li>
         <li><a href="About.html">About</a></li>
         <li><a href="Contact.html">Contact</a></li>
@@ -63,20 +65,173 @@
     </div>
   </div>
 </nav>
+
+
 <!--End Nav Menu Section-->
 </header>
 
+ <!-- Share Story Section-->
+ <div class="txtimg">
+    
+  <img src="ImageTest/testimage.jpg" alt="Contact Us" width = "100%" height="auto">
 
-<!-- Slide Show Product-->
+  <div class="textcentered">
+      <div class="CARewards">
+          <h1>The Chocolate Appetite Story</h1>
+      </div>
+    <!-- <p>Become a member, earn points and turn them into rewards</p>
+      <h1> A NEW WAY TO ENJOY THE CHOCOLATES YOU LOVE</h1>
+    <a href="Rewards.html"> <button type="button" class="btn default">Learn More</button> </a> -->
+
+  </div>
+</div>
+
+<!-- End Share Story Section-->
+
+<!-- EXPLAINING REWARDS-->
+
+<div class="row">
+  <div class="column">
+    <img src="ImageTest/testimage.jpg" alt="Snow" style="width:100%">
+    <div class="center"><p>Become a Member</p></div>
+    
+  </div>
+  <div class="column">
+    <img src="ImageTest/testimage.jpg" alt="Forest" style="width:100%">
+    <div class="center">
+      <P>Earn Points</P>
+    </div>
+  </div>
+  <div class="column">
+    <img src="ImageTest/testimage.jpg" alt="Mountains" style="width:100%">
+    <div class="center">
+      <P> Rewards</P>
+    </div>
+</div>
+</div>
+
+<hr>
+
+<!-- END EXPLAINING REWARDS-->
+
+<!-- Reward Grid Section-->
+
+<div class="center">
+  <h1> Rewards</h1>
+
+  <div class="grid-container">
+    <div class="grid-item">
+      <h4>50 POINTS</h4>
+      <p>Enjoy $5 off your next purchase of choice.</p>
+
+    </div>
+
+    <div class="grid-item">
+      <h4>60 POINTS</h4>
+      <p>Buy 2 get 4 free - Category: Chocoteja Flavours</p>
+
+    </div>
+
+    <div class="grid-item">
+
+        <h4>80 POINTS</h4>
+        <p>Buy 4 get 6 free - Category: Chocoteja Flavours</p>
+
+    </div>  
+
+    <div class="grid-item">
+
+      <h4>100 POINTS</h4>
+      <p>Buy 6 get 8 free - Category: Chocoteja Flavours</p>
+
+    </div>
+
+
+    <div class="grid-item">5
+
+      <h4>120 POINTS</h4>
+      <p>Buy 8 get 10 free - Category: Chocoteja Flavours</p>
+
+    </div>
 
 
 
+    <div class="grid-item">
+
+      <h4>200 POINTS</h4>
+      <p>Get free shipping of your next order.</p>
+
+    </div>  
+   
+  </div>
+  
+</div>
+
+<!-- End Reward Grid Section-->
+
+<!--FAQ Section-->
+<div class="center">
+  <h1>Frequently asked questions</h1>
+</div>
+
+<button class="accordion">Section 1</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<hr>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<hr>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>      
+
+<hr>
+
+ 
+
+
+
+<!--End FAQ Section-->
 
 <script>
 
+var acc = document.getElementsByClassName("accordion");
+var i;
 
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
 
 </script>
+
+<div class ="footer">
+  <img src="Logo/cafulllogo.png" alt="Chocolate Appetite Logo" width="140" height="80">
+  <p>Free standard shipping over $100.</p>
+
+
+  <h2>BECOME A MEMBER AND EARN 50 BONUS SIGN UP POINTS</h2>
+  <h3>Follow Us</h3>
+  <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-instagram"></a>
+  <p>Created By: Dante Company @2020</p>
+</div>
+
 
 
 </body>
