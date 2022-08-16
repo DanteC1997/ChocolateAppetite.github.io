@@ -381,8 +381,7 @@ margin-bottom: -5px;
   float: left;
   width: 50%;
   text-align: center;
-  border: 2px solid black;
-  border-radius: 12px;
+ 
   padding: 5px;
 
 }
@@ -396,8 +395,7 @@ margin-bottom: -5px;
   float: left;
   width: 50%;
   text-align: center;
-  border: 1px solid black;
-  border-radius: 12px;
+
   padding: 5px;
 }
 
@@ -412,4 +410,8 @@ margin-bottom: -5px;
 .responsiveother {
   max-width: 100%;
   height: auto;
+}
+
+.backgroundcolorindex{
+  background-color: black;
 }
